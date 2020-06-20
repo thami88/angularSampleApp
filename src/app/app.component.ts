@@ -9,6 +9,9 @@ export class AppComponent {
   name:string = 'Thamindu';
 
   constructor(){
-    this.name = "Kavi";
+    this.changeName('Simone');
+  }
+  changeName(name:string):void{
+    this.name = name;
   }
 }
